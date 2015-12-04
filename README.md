@@ -8,7 +8,7 @@ given a gainNode, does the ADSR dance
 
 ### API
 
-`adsr(gainNode, when/time/ac.currentTime(probably), adsrObject:{attack, decay, sustain, release, peak, mid})`
+`adsr(gainNode, when/time/ac.currentTime(probably), adsrObject:{attack, decay, sustain, release, peak, mid, end})`
 
 ### EXAMPLE
 
@@ -19,7 +19,7 @@ var gain = ac.createGain()
 
 // other stuff, make an oscillator, idk, do u
 
-adsr(gain, ac.currentTime, {attack: 0.25, decay: 0.1, sustain: 0.2, release: 0.05, peak: 0.7, mid: 0.5})
+adsr(gain, ac.currentTime, {attack: 0.25, decay: 0.1, sustain: 0.2, release: 0.05, peak: 0.7, mid: 0.5, end: 0.000001})
 ```
 
 ### WOW, COOL!
