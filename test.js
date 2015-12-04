@@ -1,6 +1,6 @@
 var tap = require('tape')
-require("web-audio-mock")
-AudioContext = AudioContext || webkitAudioContext
+require('web-audio-mock')
+var AudioContext = AudioContext || webkitAudioContext
 var ac = new AudioContext()
 var adsr = require('./')
 var gain = ac.createGain()

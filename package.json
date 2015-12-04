@@ -3,12 +3,27 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "standard && node test.js",
-    "publish": "npm run test"
+    "test": "node test.js"
   },
   "devDependencies": {
     "tape": "^4.2.2",
     "web-audio-mock": "^0.1.9"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "description": "a-d-s-r ----------------",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wham-js/a-d-s-r.git"
+  },
+  "keywords": [
+    "web audio",
+    "adsr",
+    "envelope"
+  ],
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "bugs": {
+    "url": "https://github.com/wham-js/a-d-s-r/issues"
+  },
+  "homepage": "https://github.com/wham-js/a-d-s-r#readme"
 }

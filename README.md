@@ -4,7 +4,6 @@ a-d-s-r
 given a gainNode, does the ADSR dance
 
 [![NPM](https://nodei.co/npm/a-d-s-r.png)](https://nodei.co/npm/a-d-s-r/)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Build Status](https://secure.travis-ci.org/coleww/a-d-s-r.png)](http://travis-ci.org/coleww/a-d-s-r)
 
 ### API
